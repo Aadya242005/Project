@@ -1,0 +1,55 @@
+############################################
+# Global
+############################################
+node_modules/
+.env
+.env.*
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+############################################
+# Backend (Node.js + Express)
+############################################
+backend/node_modules/
+backend/.env
+backend/.env.*
+backend/uploads/
+backend/logs/
+backend/dist/
+backend/build/
+backend/tmp/
+backend/temp/
+
+############################################
+# Frontend (Vite / React)
+############################################
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+
+############################################
+# Lock files (optional but recommended)
+############################################
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+############################################
+# IDE / Editor
+############################################
+.vscode/
+.idea/
+*.swp
+
+############################################
+# System / Misc
+############################################
+*.bak
+*.orig
+*.rej
